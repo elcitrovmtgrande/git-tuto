@@ -9,4 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     name = e.target.value;
   });
   
+  Button.addEventListener('click', ()=> {
+    alert(`Hello ${name}`)
+  })
 });
